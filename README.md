@@ -1,5 +1,11 @@
-# Kobra2MaxInsights
-Comprehensive information about Anycubic's Kobra 2 Max.
 
-Note:  
-There isn't any content in here yet, so please come back another time ;)
+
+## Please visit the GitHub pages:  
+# [Kobra2Plus Insights](https://1coderookie.github.io/Kobra2PlusInsights/)
+
+---
+
+***If you like this work, please consider starring it.***  
+
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U5NPB51)  
