@@ -5,15 +5,15 @@
 
 | Specifications |
 |:---------------|
-| **X-Axis Belt**: GT-2, 6mm width, ~1000mm total length |
+| **X-Axis Belt**: GT-2, 6mm width, ~???mm total length |
 | **X-Axis Belt Tensioner Pulley**: 3mm(??) ID / 20(??) teeth (for 6mm wide belt) (--> need to check specs again!) | 
-| **Y-Axis Belt**: GT-2, 8mm width, ~1100mm total length |
+| **Y-Axis Belt**: GT-2, 8mm width, ~???mm total length |
 | **Y-Axis Belt Tensioner Pulley**: 3mm(??) ID / 16(??) teeth (for 8mm wide belt) (--> need to check specs again!) |
 | **X- & Y-Axis Linear Rail System**: SG15 bearings, chrome-plated stainless steel rods, ??mm OD (--> need to check specs again!) |
 | **X-Axis Motor**: 42x34 Nema17, 1.8°, 200 steps, 5mm shaft with 20(??) teeth pulley (5mm bore) attached (for 6mm wide belt) (--> need to check specs again!) |
-| **Y-Axis Motor**: 42x48 Nema17, 1.8°, 200 steps, 5mm shaft with 16 teeth pulley (5mm bore, 11mm teeth length) attached (for 8mm wide belt) (--> need to check specs again!) |
-| **Z-Axis Lead Screws**: T8x8 (8mm diameter, 8mm lead, 2mm pitch, 4 starts), 350mm length, 10mm and ~23mm unthreaded 5mm OD shaft, belt-driven dual z  |
-| **Z-Axis Timing Belt**: GT-2, 6mm width, closed loop, length ??mm |
+| **Y-Axis Motor**: 42x?? Nema17, 1.8°, 200 steps, 5mm shaft at both sides with 16 teeth pulley (5mm bore, 11mm teeth length) attached (for 8mm wide belt) (--> need to check specs again!) |
+| **Z-Axis Lead Screws**: T8x8 (8mm diameter, 8mm lead, 2mm pitch, 4 starts), ???mm length, 10mm and ~23mm unthreaded 5mm OD shaft, belt-driven dual z  |
+| **Z-Axis Timing Belt**: GT-2, 6mm width, closed loop, length ???mm |
 | **Z-Axis Lead Screw Pulleys**: 20(??) teeth (5mm bore) (for 6mm wide belt) (--> need to check specs again!) |
 | **Z-Axis Anti-Backlash Nut**: POM, spring loaded, 8mm inner diameter, 20mm distance between mounting screws (18mm will fit as well due to elongated holes at the bracket!) |
 | **Z-Axis V-Slot Wheels**: POM, ~24x10.2mm with 6mm width at the tip of the "V", 625 type ball bearing with 5mm inner diameter |
@@ -485,15 +485,15 @@ Please see the expandable textbox below for further instructions about how to tr
 ---
 
 ## Y-Axis
-The following picture shows the baseframe of the machine where you can see the y-axis very well.  
+The following picture shows the baseframe of the machine where you can see the two y-axis rails very well.  
 
 ![Y-axis](../assets/images/axes_K2Plus_Y-axis_web.jpg)  
 
-The y-axis is the long rail in the middle which reaches from the front to the back and where the gantry of the bed (the gantry is the construction where the bed is mounted onto) is running along.  
+The y-axis rails are the two long rails which reach from the front to the back and where the gantry of the bed (the gantry is the construction where the bed is mounted onto) is running along.  
 
 The gantry of the bed is belt driven (GT-2 type, 8mm wide), the motor which drives the belt is positioned at the back of the printer.  
 
-You can adjust the tension of the belt by using the knob at the front side of the aluminum profile where the bed is guided onto.   
+You can adjust the tension of the belt by using the knobs at the front side of the aluminum profile where the bed is guided onto.   
 The gantry for the bed itself has U-shaped SG15 rollers which are running along round-shaped rails at the side of the y-axis' aluminum profile.  
 
 Please see the belonging sections for further pictures and descriptions of the parts.  
@@ -502,11 +502,12 @@ Please see the belonging sections for further pictures and descriptions of the p
 
 ### Belt Tensioner
 
-The following picture shows the belt tensioner located at the front of the y-axis aluminum rail.  
+The following picture shows the belt tensioners located at the front of the y-axis aluminum rails.  
 
 ![Y-axis knob](../assets/images/axes_K2Pro_Y-axis-tensioner_web.jpg)
 
 You can adjust the tension of the belt by turning it clockwise for increasing the tension and turning it counter-clockwise for decreasing it.  
+**As two belts are given, make sure to adjust the tension of them as equal as possible!**  
 
 
 ??? example "Disassembling The Belt Tensioner"
@@ -545,6 +546,9 @@ It's kinda difficult to explain the correct belt tension, so you'd have to exper
 Generally speaking, the belt shouldn't be too tightened up and shouldn't be too loose either. If it's too tight, too much pressure will be put onto the motor shaft which will do physical harm, the belt can snap etc. - if it's too loose though, the belt might even slip. Either state (too tensioned and too loose) can cause artifacts.   
 
 My 'rule of thumb' here is: if you can bend the belt down a bit by applying some pressure with your finger onto it but you still feel a good amount of resistance, then it's a good sign that you're in the right area of tension. So start from there and if you feel or need to do so, play around with different belt tensions while printing the same bject over and over again for finding the best tension for your setup.   
+
+**However, as two belts are given, make sure to adjust the tension of them as equal as possible!**  
+
 
 ??? info "Some Notes On Belt Tension"  
 
@@ -595,7 +599,7 @@ You should inspect the belts and the belonging parts like pulleys etc from time 
 ---
 
 ### Y-Axis Motor
-The motor of the y-axis is a 42-48 Nema 17 stepper motor with a 20 teeth pulley being attached to the 5mm motor shaft.  
+The motor of the y-axis is a 42-?? Nema 17 stepper motor with a 20 teeth pulley being attached to each side of the 5mm motor shaft.  
 It seems to be a regular 1.8° stepper, which means the shaft turns 1.8° at each steps, and therefore it's doing 200 steps per one full 360° rotation.  
 
 ![Y-axis motor](../assets/images/axes_K2Pro_Y-motor_web.jpg)  
@@ -756,7 +760,7 @@ The following picture shows the upper part where you can see the the top bearing
 
 ![Timing belt](../assets/images/axes_K2Pro_timing-belt_web.jpg)
 
-The lead screws have 8mm in diameter with 8mm lead ('distance' of one complete rotation), 2mm pitch and 4 starts and has a length of 350mm.  
+The lead screws have 8mm in diameter with 8mm lead ('distance' of one complete rotation), 2mm pitch and 4 starts and has a length of ???mm.  
 At the bottom part of the lead screw there's a 10mm long unthreaded part and at the top this part is 20mm long, the outer diameter of these shafts is 5mm.  
 
 The rods are mounted to the 5mm shaft of the motor by a rigid coupler at the bottom.   
@@ -815,7 +819,7 @@ In the following picture you can see the bottom part of the lead screw which is 
 ---
 
 ### Lead Screws  
-The lead screws are T8x8 type of lead screws, means they are 8mm in diameter with 8mm lead ('distance' of one complete rotation), 2mm pitch and 4 starts. The total length is 350mm.  
+The lead screws are T8x8 type of lead screws, means they are 8mm in diameter with 8mm lead ('distance' of one complete rotation), 2mm pitch and 4 starts. The total length is ???mm.  
 At the bottom part of the lead screw there's a 10mm long unthreaded part and at the top this part is ~23mm long, the outer diameter of these shafts is 5mm. Means, you can *not* just get one of those typical lead screws which have the thread going all along the whole length of the rod if you need a replacement!   
 
 The following picture shows the unthreaded part at the bottom which is 10mm long - the part at the top is ~23mm long.  
@@ -825,7 +829,7 @@ The following picture shows the unthreaded part at the bottom which is 10mm long
 ---
 
 ### Timing Belt  
-The two lead screws are connected by a closed loop GT-2 timing belt (6mm width, ??mm length).    
+The two lead screws are connected by a closed loop GT-2 timing belt (6mm width, ???mm length).    
 
 ![Timing belt](../assets/images/axes_K2Pro_timing-belt_web.jpg)
 
