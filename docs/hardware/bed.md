@@ -4,11 +4,11 @@
 
 | Specifications |
 |:---------------|
-| **Bedplate**: 330x330mm, 3mm thick aluminum plate with PCB heating coil |
-| **Magnetic Foil**: 330x330x1.4mm |
-| **PEI Plate**: 330x330x0.45mm, spring steel, textured on one side |
+| **Bedplate**: 430x430mm, 3mm thick aluminum plate with PCB heating coil, insulated |
+| **Magnetic Foil**: 430x430x1.4mm |
+| **PEI Plate**: 430x430x0.45mm, spring steel, textured on one side |
 | **Thermistor**: 24V, 100k NTC "ATC Semitec 104GT-2" type, AWG22 wire, two pinned JST XH 2.54 connector |
-| **PCB Heating Coil**: 24V, ~300W, ~1.85Ohm resistance, AWG14 wire |
+| **PCB Heating Coil**: 24V, ~???W, ~???Ohm resistance, AWG14 wire |
 | **Bedmount**: 7x14mm rigid spacers/bushings, 4x22mm countersunk head screws |
 | **Silicone Block**: 12x13mm, spring loaded |
 | **Tool height gauge sensor (z-offset)**: 10mm diameter (round), spring loaded |
@@ -18,7 +18,7 @@
 
 The bed consists of a 3mm aluminum [bedplate](#bedplate) with the heating coil being attached to the underside as a PCB.  
 On the top surface there's a [magnetic foil](#magnetic-foil) glued onto it which then holds the [PEI plate](#pei-plate) in place.  
-Next to the wiring at the left rear side of the bedplate is a sensor for measuring the z-offset and a silicone block for cleaning the nozzle.  
+Next to the wiring at the right rear side of the bedplate is a sensor for measuring the z-offset and a silicone block for cleaning the nozzle.  
 
 The following pictures show the bedplate (without the PEI plate) from the top and the underside.  
 
@@ -26,12 +26,12 @@ The following pictures show the bedplate (without the PEI plate) from the top an
 |:----------------:|:------------------:|
 | ![Bedplate top](../assets/images/bed_K2Plus_bedplate-labels_web.jpg) | ![Bedplate underside](../assets/images/bed_K2Plus_underside-full_web.jpg) |
 
-The build volume is 320x320mm.  
-Anycubic states in the official specs that the *size* is 320x320mm as well - which is definitely wrong and misleading though, as the *physical* dimension of the bed is 330x330mm.  
+The build volume is 420x420mm.  
+Anycubic states in the official specs that the *size* is 420x420mm as well - which is definitely wrong and misleading though, as the *physical* dimension of the bed is 430x430mm.  
 
 !!! warning "Attention: Bed Size"  
 
-    If you're looking for a bedplate, a magnetic foil or just a PEI plate from a third party company, you need to get yourself a *330x330mm* plate, otherwise it would be too small!       
+    If you're looking for a bedplate, a magnetic foil or just a PEI plate from a third party company, you need to get yourself a *430x430mm* plate, otherwise it would be too small!       
 
 The temperature of the bed should reach about ≤190°F/90°C maximum and therefore it's possible to successfully print e.g. ABS, PETG and TPU (by using an enclosure though) besides PLA.  
 
@@ -44,11 +44,11 @@ In the following I'll go into the details of each part of the whole bed construc
 
 ## Bedplate
 
-The bedplate itself is a 330x330mm aluminum plate of 3mm thickness.  
+The bedplate itself is a 430x430mm aluminum plate of 3mm thickness.  
 On the top surface there's a [magnetic foil](#magnetic-foil) glued onto it which then holds the [PEI plate](#pei-plate) in place. 
  
 On the underside there's insulation material being glued on which is about 2mm thick.    
-Next to the wiring at the left rear side of the bedplate is a sensor for measuring the z-offset and a silicone block for cleaning the nozzle.  
+Next to the wiring at the right rear side of the bedplate is a sensor for measuring the z-offset and a silicone block for cleaning the nozzle.  
 
 ![Bedplate top](../assets/images/bed_K2Plus_bedplate-labels_web.jpg))  
 
@@ -61,7 +61,7 @@ The heating coil is applied as a PCB to the underside of the bedplate - as it's 
 
 Mind the bubbles of the insulation you can see at this pictures (*not* the 'bulge' in the center - that's where the thermistor is located). If you have those bubbles as well, *carefully* poke a small hole in the insulation by using a needle and push out the air. You want the insulation being glued onto the plate with no trapped air in between.  
    
-At the left rear side of the bedplate you'll notice a black plastic cap which sticks out. Be careful to never break it by accident as it acts as a strain relief and protects the wires which are soldered to the contacts of the board at the bottom side.  
+At the right rear side of the bedplate you'll notice a black plastic cap which sticks out. Be careful to never break it by accident as it acts as a strain relief and protects the wires which are soldered to the contacts of the board at the bottom side.  
 Next to that cap the z-offset sensor and the silicone block for wiping the nozzle before probing the bed's surface are located as shown in the following picture.  
 
 ![Z-offset sensor and silicone block](../assets/images/bed_K2Pro_z-sensor_topview_web.jpg)  
@@ -97,7 +97,7 @@ The thermistor is a 100k NTC "ATC Semitec 104GT-2" type which is soldered onto t
 ---
 
 ### MOD: Insulating The Bedplate 
-The bedplate of the Kobra 2 Plus already comes insulated as the following picture shows.  
+The bedplate of the Kobra 2 Max already comes insulated as the following picture shows.  
 
 ![Bedplate underside](../assets/images/bed_K2Plus_underside-full_web.jpg)  
 
@@ -134,7 +134,7 @@ The bedplate of the Kobra 2 Plus already comes insulated as the following pictur
 ## Magnetic Foil
 
 On top of the aluminum bedplate there's a magnetic foil applied. If you order a spare part heat bed, then you'll most likely only get the aluminum bedplate, but not the magnetic foil. So you'll have to get yourself a magnetic foil as well.  
-If you choose a foil from the aftermarket, make sure to get the correct size. The bedplate is 230x230mm, but actually most of the foils being available on the market seem to be 235x235mm. That's fine though, as you can easily cut off any pieces of foil which are exceeding the dimensions of the bedplate then. Make sure to get yourself a foil which uses 3M glue.   
+If you choose a foil from the aftermarket, make sure to get the correct size - the bedplate is 430x430mm. If you only find bigger ones that's fine though, as you can easily cut off any pieces of foil which are exceeding the dimensions of the bedplate then. Make sure to get yourself a foil which uses 3M glue.   
 
 The following picture shows a magnetic foil that Anycubic shipped together with a replacement bedplate - the pictures show the parts of a different machine's bed (Kobra Neo), but the foil itself is pretty much the same though (the holes are just shaped slightly different plus there are two additional holes for mounting the z-offset sensor housing).  
 
@@ -166,7 +166,7 @@ The following picture shows a magnetic foil that Anycubic shipped together with 
 
 ## PEI Plate
         
-The bed uses a removable 330x330mm PEI-coated spring steel plate which makes it easy to remove the printed object.  
+The bed uses a removable 430x430mm PEI-coated spring steel plate which makes it easy to remove the printed object.  
 
 ![PEI plate](../assets/images/bed_K2Pro_PEI-plate_web.jpg)  
 
@@ -178,7 +178,7 @@ The following picture shows the surface of the textured side which you're suppos
 
 !!! warning "Attention: PEI Plate Size"  
 
-    If you're looking for a bedplate, a magnetic foil or just a PEI plate from a third party company, you need to get yourself a *330x330mm* plate, otherwise it would be too small!  
+    If you're looking for a bedplate, a magnetic foil or just a PEI plate from a third party company, you need to get yourself a *430x430mm* plate, otherwise it would be too small!  
 
   
 
@@ -202,7 +202,7 @@ The following picture shows the surface of the textured side which you're suppos
 ---
 
 ## Z-Offset Sensor  
-The z-offset sensor is located at the rear left hand side of the bedplate, next to the bed's wiring connector and the silicone block for wiping the nozzle.  
+The z-offset sensor is located at the rear right hand side of the bedplate, next to the bed's wiring connector and the silicone block for wiping the nozzle.  
 The sensor itself is a round, spring loaded metallic piece of 10mm diameter. It's being pushed down by the nozzle and then closes a contact in the inside of the sensor's housing (so it's actually just a switch).  
 
 ![Z-offset sensor and silicone block](../assets/images/bed_K2Pro_z-sensor_topview_web.jpg)   
@@ -339,15 +339,14 @@ So it's very advisable to dismount the bed, take the stock spacers out and check
 Most likely they're not of equal height, which leads to a somewhat warped bed then. If you encounter this problem, I'd suggest to sand them down to the height of the shortest one. If you do so, pay attention to sand them down perpendicular - you don't want to end up with a tilted surface/spacer.  
 You could also try to shim it out of course, but especially if the differences are pretty small, then this can be a real hassle.  
 
-<!---
+---
 
 ### MOD: Longer Spacers  
-If you want to insulate the bedplate, you'd have to use longer spacers to raise the bedplate. Otherwise the insulation would hit the mounting bracket of the Y-axis' motor.  
+If you want to apply an additional layer of insulation to the underside of the bedplate, you'd have to use longer spacers to raise the bedplate. Otherwise the insulation would hit the mounting bracket of the Y-axis' motor.  
 
-I personally used 20mm long aluminum spacers with a 5mm bore as shown in the following picture.  
+I personally used longer aluminum spacers with a 5mm bore (at my Kobra 2 Pro) as shown in the following picture.   
 
 ![Stock vs longer spacers](../assets/images/bed_K2Pro_stock-spacer-vs-longer_web.jpg)
--->
 
 ---
 
@@ -402,11 +401,11 @@ Keep in mind that the silicone spacers (I used 18mm long ones shown below) compr
 
 ## Bed Gantry
 
-The bedplate itself is mounted to the bed gantry with six screws in total (three at each side), the bedgantry itself then runs along the y-axis rail shown in the following pictures.  
+The bedplate itself is mounted to the bed gantry with six screws in total (three at each side), the bedgantry itself then runs along the y-axis rails shown in the following pictures.  
 
 ![Bed gantry top view](../assets/images/bed_K2Plus_gantry_web.jpg)  
 
-As you can see, the belt is hooked into the belonging notches at the front and the rear of the H-shaped gantry.     
+As you can see, the belts are hooked into the belonging notches at the front and the rear of the H-shaped gantry.     
 The side parts of the gantry with the threaded M4 mounting holes for the screws which hold the bedplate (see the silver spacers for the locations) are bent like an L for additional stability.  
 The six SG15 bearings that run along the round-shaped rails at the sides of the aluminum y-axis frame are mounted to the underside of the gantry (three at each side).  
 
@@ -501,9 +500,12 @@ To keep this section 'short', please see the expandable textbox below for the fu
 
 ## Anycubic LeviQ 2.0 - Automatic Bed 'Leveling' Function
 
-The printer comes with an automatic 25 point bed 'leveling' function called "Anycubic LeviQ 2.0".  
-This function measures the distance of the inductive [ABL sensor](printhead.md#abl-sensor) to the PEI plate in a 5x5 grid, therefore at 25 points.  
+The printer comes with an automatic 49 point bed 'leveling' function called "Anycubic LeviQ 2.0".  
+This function measures the distance of the inductive [ABL sensor](printhead.md#abl-sensor) to the PEI plate in a 7x7 grid, therefore at 49 points.  
 The data will then be used to compensate any deviations in the distance of the surface to the nozzle during printing by moving the printhead up and down along the z-axis.  
+
+When it comes to executing the ABL function of the printer, it's advisable to initially check if the ABL sensor is leveled correctly to get the best results out of the ABL process. You can find information about how to do it for your specific model in the section ["ABL Sensor"](printhead.md#abl-sensor).     
+
 
 !!! warning "Clarification: What ABL Does And What It Does NOT"  
 
@@ -520,11 +522,7 @@ The data will then be used to compensate any deviations in the distance of the s
     So - what can you do to at least get the best results out of the measunring and compensation process? Well - make sure to set up the printer as square and perpendicular as possible, [tram your bed](#tramming-the-bed), [tram your x-axis gantry](axes.md#tramming-the-x-axis-gantry) and [level the ABL sensor in relation to the nozzle](printhead.md#abl-sensor).  
 
  
- 
 
-<!--
-When it comes to executing the ABL function of the printer, it's advisable to initially check if the ABL sensor is leveled correctly to get the best results out of the ABL process. You can find information about how to do it for your specific model in the section ["ABL Sensor"](printhead.md#abl-sensor).     
--->  
 
 <!--
 To make the measured values of the ABL come into account later when it comes down to printing, you should add a certain g-code command to the start g-code section of your slicer. Even though this shouldn't be necessary as we have the belonging definement in the firmware (`#define ENABLE_LEVELING_AFTER_G28`), it seems to be advisable to do so.  
