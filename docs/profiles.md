@@ -36,8 +36,8 @@ You can always set up your own custom profile in your slicer. Just pay attention
 
 The following list links to the specific profiles from [Anycubic's firmware page](https://www.anycubic.com/pages/firmware-software): 
  
- - [Profile for PrusaSlicer](https://drive.google.com/file/d/1D-iqxPlP9TRq5NXVWtQRBSRd3YL2Ip79/view)  
- - [Profile for Cura](https://drive.google.com/file/d/1g9axp1mVdR3DMiAxwu7wH2SFdoKHWJPh/view)  
+ - [Profile for PrusaSlicer](https://drive.google.com/file/d/1EACeY7DjhW68bFXtkDWhGdqIRD9r-Tz_/view)  
+ - [Profile for Cura](https://drive.google.com/file/d/1go1oj83iyohcIZQ1f4s-khFUMzBoegV2/view)  
 
     
 ---
@@ -46,7 +46,7 @@ The following list links to the specific profiles from [Anycubic's firmware page
 
 Here you'll find links to profiles made by users - if I'm getting aware of them.  
 
-- [Mircea M](https://www.printables.com/de/@mrfenyx) set up a profile for **OrcaSlicer** for the Kobra 2 **Pro**, you can find it [here](https://www.printables.com/de/model/646205-anycubic-kobra-2-pro-orcaslicer-profiles). So if you want to use it as a template for your Kobra 2 *Plus*, make sure to adjust the bedsize (= needs to be bigger for you then!) and some acceleration settings (= need to be lower for you then!) accordingly.  
+- [Mircea M](https://www.printables.com/de/@mrfenyx) set up a profile for **OrcaSlicer** for the Kobra 2 **Pro**, you can find it [here](https://www.printables.com/de/model/646205-anycubic-kobra-2-pro-orcaslicer-profiles). So if you want to use it as a template for your Kobra 2 *Max*, make sure to adjust the bedsize (= needs to be bigger for you then!) and some acceleration settings (= need to be lower for you then!) accordingly.  
 
 ---
 
