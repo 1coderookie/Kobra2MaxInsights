@@ -891,12 +891,7 @@ I'd suggest to add a teethed pulley to the inner side of the belt. Of course you
 
 ---
 
-### Bearing Blocks   
-There are two kinds of bearing blocks at the machine: one at the top of each lead screw and one at the bottom of the lead screw which isn't connected to the motor.  
-
----
-
-#### Top Bearing Blocks
+### Top Bearing Blocks
 
 Both lead screws are held in position with a bearing block at the top where the 5mm OD shaft rests in. So the hole in the bearing has 5mm ID as well.   
 
@@ -946,20 +941,6 @@ Both lead screws are held in position with a bearing block at the top where the 
     | ![After](../assets/images/axes_K2Pro_timing-belt-tensioned_web.jpg) |
     
     
----
-
-#### Bottom Bearing Block
-
-The lead screw which is driven by the timing belt is mounted to the frame by a bearing block at the bottom where the 5mm OD shaft of the lead screw rests in. Therefore the hole of the bearing has 5mm ID as well.    
-You can see the bearing block being mounted to the frame in the following picture, it's the plastic part at the very *bottom* (the part above is the anti-backlash nut).  
-
-![Bearing block bottom](../assets/images/axes_K2Pro_Z-bottom-bearing-mount_web.jpg)   
-
-The following pictures show the bottom bearing block from different angles.  
-
-| Frontview | Sideview | Topview |
-|:---------:|:--------:|:-------:|
-| ![Frontview](../assets/images/axes_K2Pro_z-bottom-bearing-block_front_web.jpg) | ![Sideview](../assets/images/axes_K2Pro_z-bottom-bearing-block_side_web.jpg) | ![Topview](../assets/images/axes_K2Pro_z-bottom-bearing-block_solo_web.jpg) |
 
 ---
 
@@ -1044,7 +1025,6 @@ The following picture shows the stock coupler that is mounted.
 
 It's adviseable to swap out the rigid stock couplers and use flexible couplers instead. Those allow to compensate a minor misalignment of the z-axis lead screw setup.   
 
-If you want to change the coupler, you'll need to get a coupler which suits 5mm on one side and 8mm on the other side as the motor shaft is 5mm and the rod is 8mm in diameter.  
 Make sure you *don't* get a coupler which uses a grub/set screw that holds onto the shaft and rod itself, you need to get a coupler which uses some kind of a clamp mechanism as the stock one. The reason is simple: the motor shaft is round, it doesn't have a flat area where a grub screw needs to be screwn onto, same goes for the lead screw itself - so a clamping mechanism will just work better holding everything in place.  
 Besides that, using a clamp mechanism makes sure that the shaft and the lead screw are as centered as possible in the coupler - when using a coupler which uses grub/set screws that tighten against the shaft and the rod, you'll most likely end up with a coupler being mounted slightly off-center. 
 
