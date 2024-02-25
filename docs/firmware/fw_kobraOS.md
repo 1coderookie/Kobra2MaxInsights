@@ -991,6 +991,12 @@ The following lists the content of the file `unmodifiable.cfg`.
     [probe]
     z_offset_adjust : 0.2
     ```
+
+---
+
+### MOD: Change Settings
+Due to the work of [daksimpson](https://klipper.discourse.group/u/daksimpson) it's possible to change settings in the abovementioned files `printer.cfg` and `unmodifiable.cfg`.  
+Please read [this post in the Klipper discourse group](https://klipper.discourse.group/t/printer-cfg-for-anycubic-kobra-2-plus-pro-max/11658/107) for further instructions!  
     
 ---
 
