@@ -9,7 +9,7 @@
 | **PEI Plate**: 430x430x0.45mm, spring steel, textured on one side |
 | **Thermistor**: 24V, 100k NTC "ATC Semitec 104GT-2" type, AWG22 wire, two pinned JST XH 2.54 connector |
 | **PCB Heating Coil**: 24V, ~???W, ~???Ohm resistance, AWG14 wire |
-| **Bedmount**: 7x14mm rigid spacers/bushings, 4x22mm countersunk head screws |
+| **Bedmount**: 7x17mm & 7x20mm rigid spacers/bushings, 4x??mm countersunk head screws |
 | **Silicone Block**: 12x13mm, spring loaded |
 | **Tool height gauge sensor (z-offset)**: 10mm diameter (round), spring loaded |
 | **Acceleration sensor**: LIS2DW12 | 
@@ -24,7 +24,7 @@ The following pictures show the bedplate (without the PEI plate) from the top an
 
 | Bedplate topside | Bedplate underside |
 |:----------------:|:------------------:|
-| ![Bedplate top](../assets/images/bed_K2Plus_bedplate-labels_web.jpg) | ![Bedplate underside](../assets/images/bed_K2Plus_underside-full_web.jpg) |
+| ![Bedplate top](../assets/images/bed_K2Max_bedplate_web.jpg) | ![Bedplate underside](../assets/images/bed_K2Max_bedplate-underside_web.jpg) |
 
 The build volume is 420x420mm.  
 Anycubic states in the official specs that the *size* is 420x420mm as well - which is definitely wrong and misleading though, as the *physical* dimension of the bed is 430x430mm.  
@@ -50,21 +50,18 @@ On the top surface there's a [magnetic foil](#magnetic-foil) glued onto it which
 On the underside there's insulation material being glued on which is about 2mm thick.    
 Next to the wiring at the right rear side of the bedplate is a sensor for measuring the z-offset and a silicone block for cleaning the nozzle.  
 
-![Bedplate top](../assets/images/bed_K2Plus_bedplate-labels_web.jpg))  
+![Bedplate top](../assets/images/bed_K2Max_bedplate_web.jpg)  
 
 When buying the bedplate as a spare part, it'll come without the magnetic foil being attached, so you have to get yourself the magnetic foil/sticker as well.  
 The surface of the plate is covered with a protective foil, which you have to pull off before applying the magnetic foil.   
 
 The heating coil is applied as a PCB to the underside of the bedplate - as it's already insulated, you can't really see the heating coil tough.  
 
-![Bedplate underside](../assets/images/bed_K2Plus_underside-full_web.jpg)  
+![Bedplate underside](../assets/images/bed_K2Max_bedplate-underside_web.jpg)  
 
 Mind the bubbles of the insulation you can see at this pictures (*not* the 'bulge' in the center - that's where the thermistor is located). If you have those bubbles as well, *carefully* poke a small hole in the insulation by using a needle and push out the air. You want the insulation being glued onto the plate with no trapped air in between.  
    
-At the right rear side of the bedplate you'll notice a black plastic cap which sticks out. Be careful to never break it by accident as it acts as a strain relief and protects the wires which are soldered to the contacts of the board at the bottom side.  
-Next to that cap the z-offset sensor and the silicone block for wiping the nozzle before probing the bed's surface are located as shown in the following picture.  
-
-![Z-offset sensor and silicone block](../assets/images/bed_K2Pro_z-sensor_topview_web.jpg)  
+At the left hand side at the back of the bedplate you'll notice a black plastic cap which sticks out. Be careful to never break it by accident as it acts as a strain relief and protects the wires which are soldered to the contacts of the board at the bottom side.  
 
 The following pictures show the underside view of these parts.  
   
@@ -73,12 +70,14 @@ The following pictures show the underside view of these parts.
 Here you can also see the acceleration sensor, the following picture shows it in a closeup view.  
 
 ![Closeup connector](../assets/images/bed_K2Pro_bedplate-connector-closeup_web.jpg)  
-  
-When you take a look underneath the bed itself, you'll spot a little foam piece secured by Kapton tape as you can see in the following picture.  
-  
-![Bed thermistor](../assets/images/bed_thermistor_web.jpg)
 
-Don't remove that piece of foam as it protects and insulates the thermistor of the bed which is positioned underneath it and rests in a tiny hole in the middle of the bedplate as the following picture shows.  
+At the right hand side at the back of the bedplate, you can see the z-offset sensor and the silicone block for wiping the nozzle before probing the bed's surface as shown in the following picture.  
+
+![Z-offset sensor and silicone block](../assets/images/bed_K2Pro_z-sensor_topview_web.jpg)  
+
+  
+The thermistor for measuring the bed's temperature is located at the underside, in the center of the bedplate. It's located in a hole in the aluminum plate and it's covered by the insulation of the bed, so you usually can't see it.  
+However, the following picture shows the thermistor.    
 
 ![Bed thermistor](../assets/images/bed_thermistor_web.jpeg)
 
@@ -160,7 +159,7 @@ The following picture shows a magnetic foil that Anycubic shipped together with 
     
     Once you're done, wipe from the center of the bedplate to the sides once again while applying a bit of more pressure. Then heat up the bed to about 40-50°C (so that it's still safe for you to touch it without burning yourself) and let it sit for about 5min like that. Then wipe over it once again while applying pressure to make sure the foil is properly attached. Pay special attention to the egdes and long corners and make sure the foil really is attached well there.  
     
-    If you bought a 235x235mm or even bigger foil, cut off the protruding parts by using a scalpel or sharp knife.   
+    If you bought a 450x450mm or even bigger foil, cut off the protruding parts by using a scalpel or sharp knife.   
 
 ---
 
@@ -202,7 +201,7 @@ The following picture shows the surface of the textured side which you're suppos
 ---
 
 ## Z-Offset Sensor  
-The z-offset sensor is located at the rear right hand side of the bedplate, next to the bed's wiring connector and the silicone block for wiping the nozzle.  
+The z-offset sensor is located at the right hand side at the back of the bedplate, next to the silicone block for wiping the nozzle.  
 The sensor itself is a round, spring loaded metallic piece of 10mm diameter. It's being pushed down by the nozzle and then closes a contact in the inside of the sensor's housing (so it's actually just a switch).  
 
 ![Z-offset sensor and silicone block](../assets/images/bed_K2Pro_z-sensor_topview_web.jpg)   
@@ -328,7 +327,7 @@ The following picture shows the acceleration sensor and it's connector in a clos
 ## Spacers / Bushings Of The Bedmount
 
 The bedplate is mounted onto the gantry with 4mm countersunk screws and rigid metal spacers between the bedplate itself and the gantry.  
-The spacers are about 7mm outer diameter with a 5mm bore and they're about 14mm long.  
+The spacers are about 7mm outer diameter with a 5mm bore and they're about 17mm and 20mm long.  
 
 ![Stock spacers](../assets/images/bed_K2Pro_stock-spacers_web.jpg)  
 
@@ -403,7 +402,7 @@ Keep in mind that the silicone spacers (I used 18mm long ones shown below) compr
 
 The bedplate itself is mounted to the bed gantry with six screws in total (three at each side), the bedgantry itself then runs along the y-axis rails shown in the following pictures.  
 
-![Bed gantry top view](../assets/images/bed_K2Plus_gantry_web.jpg)  
+![Bed gantry top view](../assets/imagesbed_K2Max_gantry_web.jpg)  
 
 As you can see, the belts are hooked into the belonging notches at the front and the rear of the H-shaped gantry.     
 The side parts of the gantry with the threaded M4 mounting holes for the screws which hold the bedplate (see the silver spacers for the locations) are bent like an L for additional stability.  
