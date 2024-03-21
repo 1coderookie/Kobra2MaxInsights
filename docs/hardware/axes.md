@@ -8,10 +8,10 @@
 | **X-Axis Belt**: GT-2, 6mm width, ~???mm total length |
 | **X-Axis Belt Tensioner Pulley**: 3mm(??) ID / 20(??) teeth (for 6mm wide belt) (--> need to check specs again!) | 
 | **Y-Axis Belt**: GT-2, 8mm width, ~???mm total length |
-| **Y-Axis Belt Tensioner Pulley**: 3mm(??) ID / 16(??) teeth (for 8mm wide belt) (--> need to check specs again!) |
+| **Y-Axis Belt Tensioner Pulley**: ?mm(??) ID / 16(??) teeth (for 8mm wide belt) (--> need to check specs again!) |
 | **X- & Y-Axis Linear Rail System**: SG15 bearings, chrome-plated stainless steel rods, ??mm OD (--> need to check specs again!) |
 | **X-Axis Motor**: 42x34 Nema17, 1.8°, 200 steps, 5mm shaft with 20(??) teeth pulley (5mm bore) attached (for 6mm wide belt) (--> need to check specs again!) |
-| **Y-Axis Motor**: 42x?? Nema17, 1.8°, 200 steps, 5mm shaft at both sides with 16 teeth pulley (5mm bore, 11mm teeth length) attached (for 8mm wide belt) (--> need to check specs again!) |
+| **Y-Axis Motor**: 42x?? Nema17, 1.8°, 200 steps, ?mm shaft at both sides with 16 teeth pulley (5mm bore, 11mm teeth length) attached (for 8mm wide belt) (--> need to check specs again!) |
 | **Z-Axis Lead Screws**: T8x8 (8mm diameter, 8mm lead, 2mm pitch, 4 starts), ???mm length, 10mm and ~23mm unthreaded 5mm OD shaft, belt-driven dual z  |
 | **Z-Axis Timing Belt**: GT-2, 6mm width, closed loop, length ???mm |
 | **Z-Axis Lead Screw Pulleys**: 20(??) teeth (5mm bore) (for 6mm wide belt) (--> need to check specs again!) |
@@ -19,7 +19,7 @@
 | **Z-Axis V-Slot Wheels**: POM, ~24x10.2mm with 6mm width at the tip of the "V", 625 type ball bearing with 5mm inner diameter |
 | **Z-Axis Motors**: 42x34 Nema17, 1.8°, 200 steps, 5mm shaft |
 | **Z-Axis Motor Coupler**: rigid coupler, 5mm bore at both sides |
-| **Limit Switches**: x- & y-axis = mechanical, NO (= normally open) ; z-axis = no physical switch given, probe acts as virtual endstop |
+| **Limit Switches**: x- & y-axis = mechanical ; z-axis = no physical switch given, probe acts as virtual endstop |
 
 ---
 
@@ -633,17 +633,20 @@ You should inspect the belts and the belonging parts like pulleys etc from time 
 ---
 
 ### Y-Axis Motor
-The motor of the y-axis is a 42-?? Nema 17 stepper motor with a 20 teeth pulley being attached to each side of the 5mm motor shaft.  
+The motor of the y-axis is a 42-?? Nema 17 stepper motor.  
+At each side of the motor there's a shaft (?mm OD, ?mm length) with a 20 teeth pulley being attached to it.  
 It seems to be a regular 1.8° stepper, which means the shaft turns 1.8° at each steps, and therefore it's doing 200 steps per one full 360° rotation.  
 
-![Y-axis motor](../assets/images/axes_K2Pro_Y-motor_web.jpg)  
+![Y-axis motor](../assets/images/axes_K2Max_Y-motor_web.jpg)  
 
-![Y-axis motor number](../assets/images/axes_K2Pro_Y-motor_back_web.jpg)  
+!!! warning "Make Sure The Pulleys Sit Tight!"  
 
+    Since the pulleys are held onto to the shaft with two grub/set screws, you need to make sure that those screws are tight!  
+    The pulleys have to sit tight - if they can slightly move due to an insufficient mounting, you'll face layer skipping!  
+    ![Y-motor pulleys](../assets/images/axes_K2Max_Y-motor_pulleys_web.jpg)  
   
-  
 
-!!! warning "Attention When Connecting A 'Generic' Motor!"  
+??? warning "Attention When Connecting A 'Generic' Motor!"  
 
     As there aren't any specifications and replacement motors from Anycubic being available, you should be able to use any 'generic' motor with the beforementioned specs.  
     *Before connecting it to the mainboard though, take your multimeter and identify the coils by probing the pins of the motor's connector!*  
@@ -768,11 +771,11 @@ After that, add a slight coating of lubrification to reduce the wear and tear du
 
 ### Limit Switch
 
-The limit switch for the y-axis is mounted to the metal bracket of the Y-axis motor at the back.  
+The limit switch for the y-axis is mounted to the frame, on the right hand side next to the Y-axis motor at the back.
 
-![Y-axis limit switch](../assets/images/axes_K2Pro_Y-limitswitch_web.jpg)  
+![Y-axis limit switch](../assets/images/axes_K2Max_Y-limitswitch_web.jpg)  
 
-The rear wheel on the left side of the bed gantry triggers the switch when moved completely to the back.  
+The rear wheel on the right side of the bed gantry triggers the switch when being moved completely to the back.  
 
 | Y-limit switch open | Y-limit switch closed |
 |:-------------------:|:---------------------:|
