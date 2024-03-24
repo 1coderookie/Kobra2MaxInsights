@@ -42,7 +42,6 @@ Please mind the **search field** in the header as well as the icon in the header
   
 ***Happy tinkering and printing!***  
 
-
 ---
   
 *If you want to ***support my work***, you can do so by ***donating*** to [my ko-fi account](https://ko-fi.com/U6U5NPB51).*  
