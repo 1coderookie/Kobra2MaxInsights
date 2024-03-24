@@ -56,8 +56,7 @@ Please mind the **search field** in the header as well as the icon in the header
 *Thank you!*
   
 ---
- 
-  
+   
 ??? info "Thanks To The Supporters And Contributers!"
 
     - *Thanks a lot to the **kind people who supported my work with a donation** to [my ko-fi account](https://ko-fi.com/U6U5NPB51)!*
