@@ -402,7 +402,7 @@ Keep in mind that the silicone spacers (I used 18mm long ones shown below) compr
 
 The bedplate itself is mounted to the bed gantry with six screws in total (three at each side), the bedgantry itself then runs along the y-axis rails shown in the following pictures.  
 
-![Bed gantry top view](../assets/imagesbed_K2Max_gantry_web.jpg)  
+![Bed gantry top view](../assets/images/bed_K2Max_gantry_web.jpg)  
 
 As you can see, the belts are hooked into the belonging notches at the front and the rear of the H-shaped gantry.     
 The side parts of the gantry with the threaded M4 mounting holes for the screws which hold the bedplate (see the silver spacers for the locations) are bent like an L for additional stability.  
