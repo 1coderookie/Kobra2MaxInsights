@@ -308,7 +308,7 @@ Before showing that table here, let me point out a few things first though:
     As an example: fan F0 (part cooling fan) needs 24V and 'F0', which is the signal (to be more precise: it's the individual PWM driven GND connection). Since it already gets the 24V from the head's breakout board where it's connected to and you already connected 24V to J5, you only need to connect 'F0' to the according connection at the MKS board - I used 'FAN1' = PC14 for that.  
     The thermistor T0 of the hotend on the other hand connects to 'T0' and GND. Since you already connected GND to J5 and the thermistor gets that connection from the head's breakout board, you only have to connect 'T0' to the according pin at the MKS board - I used 'TH1' = PC1 for that.
    
-    Then we have the *CHASSIS GND* at both the E-CON and X-CON ribbon cable connectors. Basically this is protective earth (if that's the correct English term).  
+    Then we have the *CHASSIS GND* at both the E-CON and X-CON ribbon cable connectors - basically this is protective earth.     
     At the stock mainboard, we have copper plated mounting holes, where one wire is being connected to which then connects to the protective earth of the power supply. Since we don't have these copper plated mounting holes at the MKS board, you can just connect all CHASSIS GND wirings together with the wire that's running to the protective erath of the PSU.
 
     Then we have three *H+* and *H-* connectors at the E-CON ribbon cable. These are the 24V connections for the heater cartridge.  
@@ -318,7 +318,7 @@ Before showing that table here, let me point out a few things first though:
     Same with the *H-* wires - bundle them up and connect an individual *thicker* wire to them.  
     These two thicker wires now have to be connected to the according connector at the MKS board - I used 'HE0' = PE5 for that. Connect *H+* to *HE0+* and *H-* to *HE0-*.  
    
-2. **Wiring Up The Motors**  
+3. **Wiring Up The Motors**  
     At the mentioned pinout scheme for the K2 Pro/Plus/Max, the four motor pins are called A1, A2, B1, B2.  
     At the scheme of the MKS board though, they're called 1A, 1B, 2A, 2B.  
     So when assembling the connectors of the motor wiring, you have to make sure to connect it as shown in the following table.  
@@ -332,19 +332,19 @@ Before showing that table here, let me point out a few things first though:
 
     *Don't connect A1 to 1A and then A2 to 2A - that won't work and will result in a non-functional motor setup and an error message at Klipper later.*  
 
-3. **Z-Offset Sensor**  
+4. **Z-Offset Sensor**  
     I also connectected the z-offset sensor, even though I probably won't use it. Since I plan on adding an optical minimum limit switch for the z-axis (which I'll connect to "Z-" = PC8), I connected the z-offset sensor to "Z +" = ^PC4 (I *think* you need to have the `^` in front since that activates the pullup for that pin). I'll probably not use it, but I like to have it connected - just in case..
 
-4. **Inductive Proximity Sensor / ABL Probe**  
+5. **Inductive Proximity Sensor / ABL Probe**  
     The inductive proximity sensor is conencted to 24V, GND and the according signal pin labeled as 'LEVEL' at the pinout scheme at the printhead's breakout board. Since you already connected 24V and GND, you only have to connect the signal pin 'LEVEL' to the MKS board - I used the BLTOUCH connector = PA8 for that.  
     Don't worry about the 24V and the signal - due to the electronic circuit of the head's breakout board, the signal level will be just fine and won't harm the according connection of the MKS board.
 
-5. **Fans**  
+6. **Fans**  
     The MKS board has two fan connectors which can be PWM controlled: FAN1 (= PC14) and FAN2 (=PB1). I connected the *part cooling fan F0* to FAN 1 and the *heatsink cooling fan of the hotend F1* to FAN2.  
     I then connected the *mainboard cooling fan* to the 24V connector "J4" - that one provides 24V continously, so the mainboard cooling fan will run as soon as you switch on the printer.  
     *Attention: always mind the polarity!*  
 
-6. **Acceleration Sensors**  
+7. **Acceleration Sensors**  
     I decided to connect both of the acceleration sensors (printhead & bed) to the same SPI bus.  
     Since I don't use an additional screen for the MKS board, I used the EXP2 connector (you either need a 10pin female IDC connector or just some female DuPont connectors) which is SPI1.  
 
@@ -375,7 +375,7 @@ The following table shows the wiring/connections according to *my* `printer.cfg`
 | Heatsink Cooling Fan | E-CON: F1 | FAN2 | PB1 |
 | Thermistor Hotend | E-CON: T0 | TH1 | PC1 |
 | Cartridge Heater | E-CON: H+ / H- (3x) | HE0+ / HE0- | PE5 |
-| CHASSIS GND | E-/X-CON: CHASSIS GND | PE-Wire PSU | (PE-Wire PSU) | 
+| PE / Chassis GND | E-/X-CON: CHASSIS GND | PE-Wire PSU | (PE-Wire PSU) | 
 | Filament Runout Sensor | X-CON: FILAMENT/GND | MT_DET1 PA4/GND | !PA4 |  
 | X Limit Switch | X-CON: X LIMIT/GND | X PA15/GND | !PA15 |
 | Y Limit Switch | Y-CON: LIMIT/GND | Y PD2/GND | !PD2 |    
