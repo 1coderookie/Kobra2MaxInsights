@@ -79,6 +79,8 @@ At the right hand side at the back of the bedplate, you can see the z-offset sen
 The heating coil of the bed isn't connected directly to the mainboard, there's an additional MOSFET board located at the underside of the printer as shown in the following picture.  
 
 ![External MOSFET](../assets/images/K2Max_MOSFET_web.jpg)  
+
+The thin wire at the top left is the signal for switching the MOSFET, the bed's heating coil itself is connected to the "HOTBED" connector at the bottom left.  
   
 The thermistor for measuring the bed's temperature is located at the underside, in the center of the bedplate. It's located in a hole in the aluminum plate and it's covered by the insulation of the bed, so you usually can't see it.  
 However, the following picture shows the thermistor.    
