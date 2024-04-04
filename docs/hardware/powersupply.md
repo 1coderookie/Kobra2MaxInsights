@@ -6,9 +6,10 @@
 |:---------------|
 | **Input Voltage**: 115V and 230V AC (choose the correct voltage by setting a switch before turning on the printer!) |
 | **Output Voltage**: 24V DC |
-| **Power Rating**: 400W, 17A max. |
+| **Power Rating**: 400W(?), 17A max. |
 | **Fuse**: glass tube type, replaceable, located between the power plug and the power switch |
 | **Fan**: 24V, 0.10A, 60x60x15mm, model "Cheng Liang CHA6024RL-15B" |  
+| **External MOSFET**: drives the 24V DC of the bed's heating coil and the mainboard |   
 
 ---
 
@@ -131,10 +132,13 @@ The following picture shows the new version mounted.
 
 ## External MOSFET 
 
-The heating coil of the bed isn't connected directly to the mainboard, there's an additional MOSFET board located at the underside of the printer as shown in the following picture.  
+The 24V DC of the mainboard as well as the heating coil of the bed aren't connected directly to the PSU. Instead, both are driven by an external MOSFET board located at the underside of the printer as shown in the following picture.  
 
 ![External MOSFET](../assets/images/K2Max_MOSFET_web.jpg)  
 
+The PSU is connected to the green screw terminal "DC IN" at the bottom right, the bed's heating coil is connected to the green screw terminal "HOTBED"  at the bottom left.  
+The mainboard is connected to the "24 OUT" connector at the top right.  
+The signal for switching the MOSFET to heat up the bed is provided by the thin wires at the top left.  
   
 <!--
 ## MOD: Add An External MOSFET 
