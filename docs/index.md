@@ -44,7 +44,9 @@ Please mind the **search field** in the header as well as the icon in the header
 
 ---
   
-*If you want to ***support my work***, you can do so by ***donating*** to [my ko-fi account](https://ko-fi.com/U6U5NPB51).*  
+*If you want to ***support my work***, you can do so by ***donating*** to [my ko-fi account](https://ko-fi.com/U6U5NPB51).*   
+
+*If you own a Printables account, please consider **liking [my models](https://www.printables.com/@Meowsketeer)** (I'm trying to collect PrusaPoints.. ;) ).*  
 
 *If you own a GitHub account, please consider ***starring*** [this repository](https://github.com/1coderookie/Kobra2ProInsights).*  
 
@@ -62,6 +64,7 @@ Please mind the **search field** in the header as well as the icon in the header
     - *Thanks a lot to the **kind people who supported my work with a donation** to [my ko-fi account](https://ko-fi.com/U6U5NPB51)!*
     - *Thanks to the **stargazers** at GitHub for starring this repository!* 
     - *Special thanks to **[Chain_Crazy](https://www.reddit.com/user/Chain_Crazy/)** for providing me the necessary Kobra 2 Max specific pictures and specs for being able to create this infosite!*   
+    - Thanks to **[bug2k18](https://www.reddit.com/user/bug2k18)** for allowing me to use his picture of external MOSFET of the bed!  
     - Thanks to **[codexnovus](https://github.com/codexnovus/)** for allowing me to use his picture of the mainboard's pinout scheme!      
     - Thanks to **[debeliq1](https://www.reddit.com/user/debeliq1)** for allowing me to use his picture of the wear&tear of the linear rail rod!
     - Thanks to **[Due-Telephone-6817](https://www.reddit.com/user/Due-Telephone-6817)** for taking those pictures of the spider coupler and the diaphragm coupler!  
