@@ -422,7 +422,15 @@ Finally put the risers underneath the feet and connect the USB cable to the one 
 
 ---
 
-## MOD: Add An External MOSFET  
+## External MOSFET
+
+The heating coil of the bed isn't connected directly to the mainboard, there's an additional MOSFET board located at the underside of the printer as shown in the following picture.  
+
+![External MOSFET](../assets/images/K2Max_MOSFET_web.jpg)  
+  
+<!---
+
+### MOD: Add An External MOSFET  
 
 It's advisable to add an external MOSFET for driving the heated bed (if you like, you can also add one for the heater cartridge as well of course). Even though the MOSFET on the mainboard is sufficient, it's an upgrade worth doing as it not only leads to the fact that the bed will be heated up slightly faster, but it also increases the security of the hole printer.  
 The MOSFET of the mainboard doesn't have a heatsink and it *may* caused by overheating due to an excessive amount of current being drawn, especially when using higher bed temperatures. Due to the low clearance between the fan of the moainboard and the ground the printer stands on, the cooling isn't the best as well. When using an enclosure which then heats up as well, cooling gets even worse.  
@@ -462,6 +470,7 @@ The following picture shows the MOSFET being mounted to the rear left-hand side 
 As an additional benefit, now that it's mounted back there, the problem with the bed's wires being too short isn't given anymore.  
 
 ![MOSFET mounted](../assets/images/psu_mosfet-mounted_web.jpg)  
+-->
 
 ---
 
