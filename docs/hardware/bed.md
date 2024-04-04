@@ -8,7 +8,8 @@
 | **Magnetic Foil**: 430x430x1.4mm |
 | **PEI Plate**: 430x430x0.45mm, spring steel, textured on one side |
 | **Thermistor**: 24V, 100k NTC "ATC Semitec 104GT-2" type, AWG22 wire, two pinned JST XH 2.54 connector |
-| **PCB Heating Coil**: 24V, ~???W, ~???Ohm resistance, AWG14 wire |
+| **PCB Heating Coil**: 24V, ~???W, ~???Ohm resistance, AWG14 wire |  
+| **External MOSFET** |
 | **Bedmount**: 7x17mm & 7x20mm rigid spacers/bushings, 4x??mm countersunk head screws |
 | **Silicone Block**: 12x13mm, spring loaded |
 | **Tool height gauge sensor (z-offset)**: 10mm diameter (round), spring loaded |
@@ -75,6 +76,9 @@ At the right hand side at the back of the bedplate, you can see the z-offset sen
 
 ![Z-offset sensor and silicone block](../assets/images/bed_K2Pro_z-sensor_topview_web.jpg)  
 
+The heating coil of the bed isn't connected directly to the mainboard, there's an additional MOSFET board located at the underside of the printer as shown in the following picture.  
+
+![External MOSFET](../assets/images/K2Max_MOSFET_web.jpg)  
   
 The thermistor for measuring the bed's temperature is located at the underside, in the center of the bedplate. It's located in a hole in the aluminum plate and it's covered by the insulation of the bed, so you usually can't see it.  
 However, the following picture shows the thermistor.    
