@@ -129,38 +129,14 @@ The following picture shows the new version mounted.
 
 --- 
 
-## MOD: How To Add A Step-Down Converter For Using 12V Fans 
+## External MOSFET 
 
-When you want to add components which need a different voltage than the 24VDC the PSU offers, you can do so by using a step-down converter (or a step-up converter if you need a higher voltage than 24VDC). Simply connect the IN of the converter to one of the free 24VDC connectors of the PSU, dial in the voltage you need and then connect the belonging part to the OUT of the converter.  
-The following picture shows a typical "LM2596S" type step-down converter which can be used.  
+The heating coil of the bed isn't connected directly to the mainboard, there's an additional MOSFET board located at the underside of the printer as shown in the following picture.  
 
-![Step-down](../assets/images/PSU_StepDown_web.jpg)
- 
+![External MOSFET](../assets/images/K2Max_MOSFET_web.jpg)  
 
-However, when you want to use e.g. 12V fans which speeds are usually controlled by PWM of the mainboard, you have to connect them differently. The following drawing shows how to proceed in that case, so that the PWM will still work.  
-
-!!! warning 
-
-    The following circuit diagram about how to connect a step-down converter wasn't tested by me yet. It's assumed that the mainboard controls the PWM of the fans by switching the belonging GND of the connector.  
-
-![Step-down converter wiring diagram](../assets/images/stepdown-wiring.png)  
-
-
-!!! warning "Add An Additional Fuse"
-
-    It is highly recommended to add a suitable fuse to the 24V line, right after the connector of the PSU. If your additional parts like the converter will fail, the fuse will melt - which can save you from burning down your house. 
-
----
-
-## MOD: Add Additional Fuses To The 24V DC Wiring 
-
-It is highly recommended to add a fuse or a fusebox to each of the 24V lines. Pay attention to choose the correct 'size' of the fuse for the belonging part (ampere rating).  
-Doing so can save you from burning down your house if components fail or if the wires somehow overheat and start to burn due to broken strands (which causes a higher resistance) or a shortcut.  
-
-(..need to add pic..)
-
----
-
+  
+<!--
 ## MOD: Add An External MOSFET 
 
 It's advisable to add an external MOSFET for driving the heated bed (if you like, you can also add one for the heater cartridge as well of course). Even though the MOSFET on the mainboard is sufficient, it's an upgrade worth doing as it not only leads to the fact that the bed will be heated up slightly faster, but it also increases the security of the hole printer.  
@@ -202,8 +178,40 @@ As an additional benefit, now that it's mounted back there, the problem with the
 
 ![MOSFET mounted](../assets/images/psu_mosfet-mounted_web.jpg)  
 
-    
+-->    
     
 ---
+
+## MOD: How To Add A Step-Down Converter For Using 12V Fans 
+
+When you want to add components which need a different voltage than the 24VDC the PSU offers, you can do so by using a step-down converter (or a step-up converter if you need a higher voltage than 24VDC). Simply connect the IN of the converter to one of the free 24VDC connectors of the PSU, dial in the voltage you need and then connect the belonging part to the OUT of the converter.  
+The following picture shows a typical "LM2596S" type step-down converter which can be used.  
+
+![Step-down](../assets/images/PSU_StepDown_web.jpg)
+ 
+
+However, when you want to use e.g. 12V fans which speeds are usually controlled by PWM of the mainboard, you have to connect them differently. The following drawing shows how to proceed in that case, so that the PWM will still work.  
+
+!!! warning 
+
+    The following circuit diagram about how to connect a step-down converter wasn't tested by me yet. It's assumed that the mainboard controls the PWM of the fans by switching the belonging GND of the connector.  
+
+![Step-down converter wiring diagram](../assets/images/stepdown-wiring.png)  
+
+
+!!! warning "Add An Additional Fuse"
+
+    It is highly recommended to add a suitable fuse to the 24V line, right after the connector of the PSU. If your additional parts like the converter will fail, the fuse will melt - which can save you from burning down your house. 
+
+---
+
+## MOD: Add Additional Fuses To The 24V DC Wiring 
+
+It is highly recommended to add a fuse or a fusebox to each of the 24V lines. Pay attention to choose the correct 'size' of the fuse for the belonging part (ampere rating).  
+Doing so can save you from burning down your house if components fail or if the wires somehow overheat and start to burn due to broken strands (which causes a higher resistance) or a shortcut.  
+
+(..need to add pic..)
+
+---  
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U5NPB51)  
