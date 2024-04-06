@@ -6,16 +6,17 @@
 |:---------------|
 | **Input Voltage**: 115V and 230V AC (choose the correct voltage by setting a switch before turning on the printer!) |
 | **Output Voltage**: 24V DC |
-| **Power Rating**: 400W(?), 17A max. |
+| **Power Rating**: 500W, 21A max. |
 | **Fuse**: glass tube type, replaceable, located between the power plug and the power switch |
-| **Fan**: 24V, 0.10A, 60x60x15mm, model "Cheng Liang CHA6024RL-15B" |  
+| **Fan**: 24V, 0.10A, 60x60x15mm, model "Cheng Liang CHA6024RL-15B" (?) |  
 | **External MOSFET**: drives the 24V DC of the bed's heating coil and the mainboard |   
 
 ---
 
-The printer comes with a 400W power supply unit which can take 110V and 230V AC as well.  
+The printer comes with a 500W / 24V DC / 21A "CHENGLIANG" power supply unit which can take 110V and 230V AC as well. 
+It is mounted to the underside of the printer.   
 
-![Sticker power supply itself](../assets/images/psu_K2Pro_label_web.jpg)  
+![Sticker power supply itself](../assets/images/PSU_K2Max_label_web.jpg)  
   
 The powerswitch and the plug are located at the left hand corner in the back at the side of the frame. There is also a fuse integrated in the powerswitch box which you can pull out and exchange if necessary. 
 
@@ -24,10 +25,12 @@ The powerswitch and the plug are located at the left hand corner in the back at 
 !!! danger "Choose The Correct AC Voltage!"
 
     Before plugging in the powercord and switching on the printer, make sure that you set the little switch for choosing the voltage to the correct value! You can access it from the back of the printer and either set it to 110V or 230V - so make sure everything is set correctly first! <br> ![Voltage switch](../assets/images/psu_K2Pro_voltage-switch_web.jpg)  
-  
+
+<!--
 The power supply unit is mounted at the middle-back of the base frame underneath the bed. If you pull the bed to the front, you can see the metallic housing. For a better view, the following picture shows the underside of the machine - the PSU is the silver metallic part.   
 
 ![Housing underneath the bed](../assets/images/Kobra2Plus_underside_web.jpg)
+-->
 
 !!! warning "Warning: Turn Off And Unplug The Machine Before Accessing The Connectors"  
 
@@ -69,7 +72,7 @@ The following picture shows the PCB of the PSU - the fan isn't plugged in, the b
 
 ## PSU Fan
 
-The fan is a 60x60x15mm, 24V, 0.10A type ("Cheng Liang CHA6024RL-15B").  
+The fan is a 60x60x15mm, 24V, 0.10A type ("Cheng Liang CHA6024RL-15B" ?).  
   
 ![PSU fan](../assets/images/psu_fan_web.jpg) 
 
@@ -134,11 +137,13 @@ The following picture shows the new version mounted.
 
 The 24V DC of the mainboard as well as the heating coil of the bed aren't connected directly to the PSU. Instead, both are driven by an external MOSFET board located at the underside of the printer as shown in the following picture.  
 
-![External MOSFET](../assets/images/K2Max_MOSFET_web.jpg)  
+![External MOSFET](../assets/images/PSU_K2Max_MOSFET_web.jpg)  
 
-The PSU is connected to the green screw terminal "DC IN" at the bottom right, the bed's heating coil is connected to the green screw terminal "HOTBED"  at the bottom left.  
-The mainboard is connected to the "24 OUT" connector at the top right.  
-The signal for switching the MOSFET to heat up the bed is provided by the thin wires at the top left.  
+The PSU is connected to the green screw terminal "+ DC IN -" at the bottom right.  
+The bed's heating coil is connected to the green screw terminal "+ HOTBED -"  at the bottom left.    
+The mainboard is connected to the "+ 24 OUT -" connector at the top right.   
+The signal for switching the MOSFET to heat up the bed is provided by the thin wires at the top left which are connected to the connector labeled as "CONTROL".  
+**Attention: Mind the polarity!**
   
 <!--
 ## MOD: Add An External MOSFET 
