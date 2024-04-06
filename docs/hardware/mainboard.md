@@ -426,11 +426,13 @@ Finally put the risers underneath the feet and connect the USB cable to the one 
 
 The 24V DC of the mainboard as well as the heating coil of the bed aren't connected directly to the PSU. Instead, both are driven by an external MOSFET board located at the underside of the printer as shown in the following picture.  
 
-![External MOSFET](../assets/images/K2Max_MOSFET_web.jpg)  
+![External MOSFET](../assets/images/PSU_K2Max_MOSFET_web.jpg)  
 
-The PSU is connected to the green screw terminal "DC IN" at the bottom right, the bed's heating coil is connected to the green screw terminal "HOTBED"  at the bottom left.  
-The mainboard is connected to the "24 OUT" connector at the top right.  
-The signal for switching the MOSFET to heat up the bed is provided by the thin wires at the top left.  
+The PSU is connected to the green screw terminal "+ DC IN -" at the bottom right.  
+The bed's heating coil is connected to the green screw terminal "+ HOTBED -"  at the bottom left.    
+The mainboard is connected to the "+ 24 OUT -" connector at the top right.   
+The signal for switching the MOSFET to heat up the bed is provided by the thin wires at the top left which are connected to the connector labeled as "CONTROL".  
+**Attention: Mind the polarity!**  
   
   
 <!---
