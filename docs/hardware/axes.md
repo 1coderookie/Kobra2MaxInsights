@@ -839,7 +839,7 @@ The following picture shows the upper part where you can see the the top bearing
 
 ![Timing belt](../assets/images/axes_K2Pro_timing-belt_web.jpg)
 
-The lead screws have 8mm in diameter with 8mm lead ('distance' of one complete rotation), 2mm pitch and 4 starts and has a length of ???mm.  
+The lead screws have 8mm in diameter with 8mm lead ('distance' of one complete rotation), 2mm pitch and 4 starts and have a length of ???mm.  
 At the bottom part of the lead screw there's a 10mm long unthreaded part and at the top this part is 20mm long, the outer diameter of these shafts is 5mm.  
 
 The rods are mounted to the 5mm shaft of the motor by a rigid coupler at the bottom.   
