@@ -224,14 +224,27 @@ The following picture shows the back side of the meatl plate the printhead is mo
 
     ![Eccentric nut](../assets/images/eccentric-nut_web.jpg)   
 
+    The following picture shows an eccentric nut on it's own.  
+    ![Ecc nut solo](../assets/images/eccentric_nut2_web.jpeg)  
+
     As you hopefully can see, the bolt isn't centered - so if you turn that eccentric nut while being mounted, the position of the bolt and therefore the whole bearing will be changed, either towards or away from the rail it's sitting at.  
 
-The bearings shouldn't sit too tight at the rail but also not too loose.  
-They should touch the rail and should sit in place well without any sort of wobbling and they should be able to move smoothly.  
-On the other hand, they also shouldn't be too loose or far away from the rail which would lead to instability.  
-The printhead shouldn't wiggle but it has to be able to move freely.   
+
+For a better understanding of these parts, the following picture shows them being dismounted from the gantry with the SG15 bearing still being attached.  
+
+![Ecc nuts vs posts](../assets/images/ecc-nut_vs_bolt_web.jpeg)  
+
+The bearings shouldn't sit too tight onto the rail but also not too loose.  
+On the other hand, they also shouldn't be too loose or far away from the rail which would lead to instability - the gantry shouldn't wiggle but it has to be able to move freely and without much of a force being applied.   
+So, in a summary: the SG15 bearings should touch the rail and sit on it well without any noticeable amount of play which would cause a wiggeling, but they should still be able to move smoothly.  
+The following picture shows a bearing which is too far away from the rail, you can clearly see the huge gap between the rail and the grove of the bearing (circled in red). On the right you can see properly positioned bearing which sits perfectly on the rail (circled in green) - don't mind the tiny gap there, that's due to the shape of both parts which don't fit 100%.   
+
+![SG15 positioned](../assets/images/SG15_positions_web.jpg)  
+
+When adjusting the position, don't only judge by the look though, as that could lead to a bearing which is running way too tight and therefore an increased amount of friction and higher degree of wear & tear.     
     
-Make sure they're assembled correctly and line up with the rail as well - if they're out of alignment and don't run correctly along the rail, you'll experience a massive wear and tear. Same goes for the bearings being too tight.  
+Besides their position on the rail itself, make sure the bearings and the posts/nuts/bolts are assembled correctly and line up with the rail as well - if they're out of alignment and don't run correctly along the rail, you'll experience a massive wear and tear as well.  
+             
 
 
 ---
@@ -700,14 +713,10 @@ The following picture shows this rail system.
 ---
     
 #### SG15 Bearings Position
-The metal wheels of the bed's gantry, the SG15 bearings, are leading the bed along the aluminum profile of the y-axis.  
+The metal wheels of the bed's gantry, the SG15 bearings, are leading the bed along the aluminum profiles of the y-axis.  
 These bearings run along a round-shaped metal rail and therefore they should sit in an optimal position.    
 
-You can adjust the position and therefore the overall pressure of the bearings against the metal rail by turning the eccentric nuts which move the bearing either towards or away from the metal rail. Four of the six bearings can be adjusted in their position. The following pictures show the position of the belonging eccentric nuts.  
-
-| Bearings and ecentric nut left side | Bearings and eccentric nuts right side | 
-|:---------:|:----------:|
-| ![Eccentric nut Y sideview left](../assets/images/axes_K2Plus_y-rail-nuts-left_web.jpg) | ![Eccentric nuts Y sideview right](../assets/images/axes_K2Plus_y-rail-nuts-right_web.jpg)  |
+You can adjust the position and therefore the overall pressure of the bearings against the metal rail by turning the eccentric nuts which move the bearing either towards or away from the metal rail. Six of the eight bearings can be adjusted in their position.  
 
 ??? info "What Is An Eccentric Nut?"  
 
@@ -715,13 +724,44 @@ You can adjust the position and therefore the overall pressure of the bearings a
 
     ![Eccentric nut](../assets/images/eccentric-nut_web.jpg)   
 
+    The following picture shows an eccentric nut on it's own.  
+    ![Ecc nut solo](../assets/images/eccentric_nut2_web.jpeg)  
+
     As you hopefully can see, the bolt isn't centered - so if you turn that eccentric nut while being mounted, the position of the bolt and therefore the whole bearing will be changed, either towards or away from the rail it's sitting at.  
+
+
+Since it's difficult to take decent pictures of their positions from a sideview, I marked their locations at the following picture of the bed's gantry. The 'bigger' nuts which are circled in green have eccentric nuts *at the underside of the gantry*, the 'smaller' ones marked red are in a fixed psoition and can't be adjusted.  
+
+![Ecc nuts positions](../assets/images/axes_K2Max_Y-rails_positions-ecc-nuts_marked_web.jpg)
+
+To show you the difference how the eccentric nuts versus the unadjustable posts look like when being mounted to the gantry, the following picture shows the eccentric at the left side and the unadjustable posts at the right side of the picture. The three ones on the right (left hand side of the right Y-rail) are the only ones at the Max's Y-rail system which can't be adjusted in their position.  
+
+![Ecc nuts vs fixed posts](../assets/images/axes_K2Max_Y-rails_ecc-nuts_vs_bolts_web.jpeg)    
+
+For a better understanding of these parts, the following picture shows them being dismounted from the gantry with the SG15 bearing still being attached.  
+
+![Ecc nuts vs posts](../assets/images/ecc-nut_vs_bolt_web.jpeg)  
+
+<!--
+The following pictures show the position of the belonging eccentric nuts.  
+
+| Bearings and ecentric nut left side | Bearings and eccentric nuts right side | 
+|:---------:|:----------:|
+| ![Eccentric nut Y sideview left](../assets/images/axes_K2Plus_y-rail-nuts-left_web.jpg) | ![Eccentric nuts Y sideview right](../assets/images/axes_K2Plus_y-rail-nuts-right_web.jpg)  |
+
+-->
+
 
 The bearings shouldn't sit too tight onto the rail but also not too loose.  
 On the other hand, they also shouldn't be too loose or far away from the rail which would lead to instability - the gantry shouldn't wiggle but it has to be able to move freely and without much of a force being applied.   
 So, in a summary: the SG15 bearings should touch the rail and sit on it well without any noticeable amount of play which would cause a wiggeling, but they should still be able to move smoothly.  
+The following picture shows a bearing which is too far away from the rail, you can clearly see the huge gap between the rail and the grove of the bearing (circled in red). On the right you can see properly positioned bearing which sits perfectly on the rail (circled in green) - don't mind the tiny gap there, that's due to the shape of both parts which don't fit 100%.   
+
+![SG15 positioned](../assets/images/SG15_positions_web.jpg)  
+
+When adjusting the position, don't only judge by the look though, as that could lead to a bearing which is running way too tight and therefore an increased amount of friction and higher degree of wear & tear.     
     
-Make sure they're assembled correctly and line up with the rail as well - if they're out of alignment and don't run correctly along the rail, you'll experience a massive wear and tear. Same goes for the bearings being too tight.  
+Besides their position on the rail itself, make sure the bearings and the posts/nuts/bolts are assembled correctly and line up with the rail as well - if they're out of alignment and don't run correctly along the rail, you'll experience a massive wear and tear as well.  
              
     
 ---  
