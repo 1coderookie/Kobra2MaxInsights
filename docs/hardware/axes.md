@@ -908,7 +908,11 @@ The following picture shows the unthreaded part at the bottom which is 10mm long
 ---
 
 ### Timing Belt  
-The two lead screws are connected by a closed loop GT-2 timing belt (6mm width, ???mm length).    
+
+The z-axis is driven by two lead screws which are connected to each other with a closed loop GT-2 timing belt (6mm width, 1000mm length) at the very top.  
+Both lead screws are attached to and driven by a z-axis motor.   
+The following picture shows the upper part where you can see the the top bearing blocks both lead screws rest in, the pulleys and the timing belt which connects both lead screws.  
+*Note: The following picture shows this timing belt of the Kobra 2* ***PRO****, but it's basically the same construction at the Max, just bigger.  
 
 ![Timing belt](../assets/images/axes_K2Pro_timing-belt_web.jpg)
 
@@ -1147,6 +1151,7 @@ The following picture shows this type of coupler - for comparing the size, the s
 ### Z-Axis Motor
 The motors of the z-axis are 42-34 Nema 17 stepper motors with a 5mm motor shaft.  
 It seems to be a regular 1.8° stepper, which means the shaft turns 1.8° at each steps, and therefore it's doing 200 steps for one full 360° rotation.  
+Both motors are connected to the same stepper driver at the mainboard, so they're *not* being driven independently.  
 
 The following picture shows both motors at the z-frame in the left and right side of the bed.  
 ![Dual z motors](../assets/images/axes_K2Plus_dual-z-motors_web.jpg)  
