@@ -1,6 +1,6 @@
 # Frame 
 
-??? tip "Tram The Frame"  
+??? warning "Tram The Frame!"  
 
     As already mentioned in the introduction of this hardware section, **I strongly recommend to check and tram the whole construction of the printer's frame first. Check the base frame as well as the z-axis frame even before mounting them together.**  
 
@@ -41,7 +41,7 @@ The folowing picture shows one of those mounting brackets from the front view.
 ![Mounting bracket front](../assets/images/frame_K2Plus_z-frame-mount_low-left_web.jpg)  
 
 
-You then also have to mount two stabilizer rods from the top of the z-frame to the back of the baseframe, one to each side. Preferrably these ones should *not* be used to somewhat straighten out a tilted z-frame, they should only reinforce the whole construction - but if it's impossible to mopunt the frame perpendicular without enforcing it's position using these rods, then you have to do it that way.  
+You then also have to mount two stabilizer rods from the top of the z-frame to the back of the baseframe, one to each side. Preferrably these ones should *not* be used to somewhat straighten out a tilted z-frame, they should only reinforce the whole construction - but if it's impossible to mount the frame perpendicular without enforcing it's position using these rods, then you have to do it that way.  
 The following picture shows one of these stabilizer rods.  
 
 ![Stabilizer rod single](../assets/images/frame_K2Plus_stabilizer-rod_web.jpg)  
