@@ -12,7 +12,7 @@
 | **X- & Y-Axis Linear Rail System**: SG15 bearings, chrome-plated stainless steel rods, ??mm OD (--> need to check specs again!) |
 | **X-Axis Motor**: 42-34 Nema17, 1.8°, 200 steps, 5mm shaft with 20 teeth pulley (5mm bore) attached (for 6mm wide belt) (--> need to check specs again!) |
 | **Y-Axis Motor**: 42-60 Nema17, 1.8°, 200 steps, 8mm shaft at both sides with 20 teeth pulley (5mm bore) attached (for 8mm wide belt) (--> need to check specs again!) |
-| **Z-Axis Lead Screws**: T8x8 (8mm diameter, 8mm lead, 2mm pitch, 4 starts), ???mm length, 10mm and ~23mm unthreaded 5mm OD shaft, belt-driven dual z  |
+| **Z-Axis Lead Screws**: T8x8 (8mm diameter, 8mm lead, 2mm pitch, 4 starts), ~600-610mm length, 10mm and ~23mm unthreaded 5mm OD shaft, motor-driven dual z with additional timing belt  |
 | **Z-Axis Timing Belt**: GT-2, 6mm width, closed loop, length 1000mm |
 | **Z-Axis Lead Screw Pulleys**: 20(??) teeth (5mm bore) (for 6mm wide belt) (--> need to check specs again!) |
 | **Z-Axis Anti-Backlash Nut**: POM, spring loaded, 8mm inner diameter, 20mm distance between mounting screws (18mm will fit as well due to elongated holes at the bracket!) |
@@ -538,7 +538,7 @@ Please see the expandable textbox below for further instructions about how to tr
 ## Y-Axis
 The following picture shows the baseframe of the machine where you can see the two y-axis rails very well.  
 
-![Y-axis](../assets/images/axes_K2Plus_Y-axis_web.jpg)  
+![Y-axis](../assets/images/axes_K2Max_Y-rail-system_web.jpeg)  
 
 The y-axis rails are the two long rails which reach from the front to the back and where the gantry of the bed (the gantry is the construction where the bed is mounted onto) is running along.  
 
@@ -555,7 +555,7 @@ Please see the belonging sections for further pictures and descriptions of the p
 
 The following picture shows the belt tensioners located at the front of the y-axis aluminum rails.  
 
-![Y-axis knob](../assets/images/axes_K2Pro_Y-axis-tensioner_web.jpg)
+![Y-axis knob](../assets/images/axes_K2Max_Y-belt_tensioners_web.jpeg)
 
 You can adjust the tension of the belt by turning it clockwise for increasing the tension and turning it counter-clockwise for decreasing it.  
 **As two belts are given, make sure to adjust the tension of them as equal as possible!**  
@@ -839,11 +839,11 @@ The rear wheel on the right side of the bed gantry triggers the switch when bein
 ## Z-Axis
 The z-axis is driven by two lead screws which are connected to each other with a timingbelt at the very top.  
 Both lead screws are attached and driven by z-axis motors.   
-The following picture shows the upper part where you can see the the top bearing blocks both lead screws rest in, the pulleys and the timing belt which connects both lead screws.  
+The following picture shows the upper part where you can see the the top bearing blocks both lead screws rest in, the pulleys and the timing belt which connects both lead screws (the picture shows the setup of a Kobra 2 **Pro**, but it's the same principle at the Max).  
 
 ![Timing belt](../assets/images/axes_K2Pro_timing-belt_web.jpg)
 
-The lead screws have 8mm in diameter with 8mm lead ('distance' of one complete rotation), 2mm pitch and 4 starts and have a length of ???mm.  
+The lead screws have 8mm in diameter with 8mm lead ('distance' of one complete rotation), 2mm pitch and 4 starts and have a length of ~600-610mm.  
 At the bottom part of the lead screw there's a 10mm long unthreaded part and at the top this part is 20mm long, the outer diameter of these shafts is 5mm.  
 
 The rods are mounted to the 5mm shaft of the motor by a rigid coupler at the bottom.   
@@ -902,7 +902,7 @@ In the following picture you can see the bottom part of the lead screw which is 
 ---
 
 ### Lead Screws  
-The lead screws are T8x8 type of lead screws, means they are 8mm in diameter with 8mm lead ('distance' of one complete rotation), 2mm pitch and 4 starts. The total length is ???mm.  
+The lead screws are T8x8 type of lead screws, means they are 8mm in diameter with 8mm lead ('distance' of one complete rotation), 2mm pitch and 4 starts. The total length is ~600-610mm.  
 At the bottom part of the lead screw there's a 10mm long unthreaded part and at the top this part is ~23mm long, the outer diameter of these shafts is 5mm. Means, you can *not* just get one of those typical lead screws which have the thread going all along the whole length of the rod if you need a replacement!   
 
 The following picture shows the unthreaded part at the bottom which is 10mm long - the part at the top is ~23mm long.  
