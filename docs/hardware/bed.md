@@ -8,7 +8,7 @@
 | **Magnetic Foil**: 430x430x1.4mm |
 | **PEI Plate**: 430x430x0.45mm, spring steel, textured on one side |
 | **Thermistor**: 24V, 100k NTC "ATC Semitec 104GT-2" type, AWG22 wire, two pinned JST XH 2.54 connector |
-| **PCB Heating Coil**: 24V, ~???W, ~???Ohm resistance, AWG14 wire |  
+| **PCB Heating Coil**: 24V, ~410W, ~1.4Ohm resistance, AWG14 wire |  
 | **External MOSFET** |
 | **Bedmount**: 7x17mm & 7x20mm rigid spacers/bushings, 4x??mm countersunk head screws |
 | **Silicone Block**: 12x13mm, spring loaded |
