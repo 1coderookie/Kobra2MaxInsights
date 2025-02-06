@@ -29,7 +29,7 @@ For updating the firmware, you can either
         
 ---
 
-## Settings
+## Settings "Trigorilla A v1.0.0"
 The specific settings of the machine are -due to the fact that it's closed source now- supposed to be 'unknown'.  
 However, when the first `update.swu` file became available, it was possible to access and investigate the files `printer.cfg` and `unmodifiable.cfg`.  
 
