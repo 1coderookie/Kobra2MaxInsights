@@ -423,6 +423,20 @@ Finally put the risers underneath the feet and connect the USB cable to the one 
     You need to check if everything is working as expected first of all.  
     So please follow [Klipper's "Configuration Checks"](https://www.klipper3d.org/Config_checks.html) before even trying to e.g. set the z-offset, home the machine or execute a bedmesh probing!     
 
+---
+
+### MOD: BTT Manta M5P  
+User [olivergregorius](https://github.com/olivergregorius) used a BTT Manta M5P in his Kobra 2 Max. You can find his GitHub repository with the according description and files [here](https://github.com/olivergregorius/kobra-2-max-with-manta-m5p).
+
+---
+
+### MOD: BTT Manta M8P v2
+User [crazybanane](https://github.com/crazybanane) used a BTT Manta M8P v2 in his Kobra 2 Plus. You can find his GitHub repository with the according description and files [here](https://github.com/crazybanane/Manta-M8P-V2-for-Kobra-2-Plus).
+
+---
+
+### MOD: Trigorilla Pro B_v1.0.2 (Kobra 2 mainboard)
+The TriGorilla PRO B_v1.0.2 is being used in the Kobra 2 (see the according chapter of the Kobra2Insights' page [here](https://1coderookie.github.io/Kobra2Insights/hardware/mainboard/#trigorilla-pro-b-v_102-stock)). With just a few modifications to the stock connectors and the wiring, [OldNKrusty](https://github.com/OldNKrusty) installed this mainboard at his Kobra 2 Max. You can find his GitHub repository with the according description and files [here](https://github.com/OldNKrusty/K2MAXKlipper).  
 
 ---
 
