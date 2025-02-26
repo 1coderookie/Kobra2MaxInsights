@@ -78,9 +78,9 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     endstop_pin : !PE8
     microsteps : 16
     full_steps_per_rotation : 200
-    step_distance : 0.01
+    step_distance : 0.0125
     position_endstop : -5.000000
-    position_max : 330.000000
+    position_max : 430.000000
     position_min : -5
     homing_speed : 30.000000
     second_homing_speed : 15.000000
@@ -89,14 +89,14 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     
     [stepper_y]
     step_pin : PG11
-    dir_pin : !PE11
+    dir_pin : PE11
     enable_pin : !PG8
     endstop_pin : !PE13
     microsteps : 16
     full_steps_per_rotation : 200
-    step_distance : 0.01
-    position_endstop : -5.000000
-    position_max : 330.000000
+    step_distance : 0.0125
+    position_endstop : -8.000000
+    position_max : 430.000000
     position_min : -5
     homing_speed : 30.000000
     second_homing_speed : 15.000000
@@ -112,7 +112,7 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     full_steps_per_rotation : 200
     step_distance : 0.0025
     position_endstop : 0.0
-    position_max : 401.000000
+    position_max : 501.000000
     position_min : -5
     homing_speed : 8.000000
     homing_retract_dist : 8
@@ -132,9 +132,9 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     filament_diameter : 1.750000
     sensor_type : EPCOS 100K B57560G104F
     control : pid
-    pid_Kp : 12.723368
-    pid_Ki : 0.489360
-    pid_Kd : 82.701890
+    pid_Kp : 15.551640
+    pid_Ki : 0.682089
+    pid_Kd : 88.644347
     min_temp : -200
     max_temp : 275
     pressure_advance : 0.020000
@@ -162,7 +162,7 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     tx_pin : PE4
     uart_pin : PE5
     interpolate : 1
-    run_current : 1.8
+    run_current : 1.9
     hold_current : 1.0
     uart_address : 3
     sense_resistor : 0.075
@@ -199,9 +199,9 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     sensor_pin : PB14
     sensor_type : ATC Semitec 104GT-2
     control : pid
-    pid_Kp : 70.769227
-    pid_Ki : 1.134122
-    pid_Kd : 1103.999942
+    pid_Kp : 68.748474
+    pid_Ki : 0.868036
+    pid_Kd : 1361.219778
     min_temp : -200
     max_temp : 105
     
@@ -239,15 +239,14 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     
     [mcu]
     mem_interface : mem_interface_DSP
-    
     [input_shaper]
     shaper_type_x : mzv
-    shaper_freq_x : 60.200000
+    shaper_freq_x : 54.600000
     shaper_type_y : 2hump_ei
-    shaper_freq_y : 49.200000
+    shaper_freq_y : 49.400000
     
     [resonance_tester]
-    probe_points : 165,165,50
+    probe_points : 215,215,50
     accel_chip_x : adxl345 X
     accel_chip_y : adxl345 Y
     min_freq : 1.000000
@@ -273,8 +272,8 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     [bed_mesh]
     speed : 60.0
     horizontal_move_z : 5.0
-    mesh_min : 19,19
-    mesh_max : 305,310
+    mesh_min : 19, 19
+    mesh_max : 405,410
     probe_count : 7,7
     mesh_pps : 3,3
     algorithm : lagrange
@@ -282,9 +281,9 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     [auto_leveling]
     bed_mesh_temp : 60.0
     extruder_temp : 210.0
-    extruder_wipe_z : -2.3
+    extruder_wipe_z : -2.0
     move_speed : 30.0
-    extrude_x : 66
+    extrude_x : 394
     extrude_y : 0
     extrude_z : 15
     extrude_length : 80.0
@@ -295,9 +294,9 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     lifting_after_completion : 15.0
     
     [safe_z_home]
-    home_x_position : 40.00000
-    home_y_position : 280.00000
-    speed : 150.0
+    home_x_position : 371.000000
+    home_y_position : 361.000000
+    speed : 230.0
     z_lift : 10
     z_hop : 15.0
     z_hop_speed : 8.0
@@ -307,7 +306,7 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     deactivate_on_each_sample : True
     x_offset : 0.0
     y_offset : 0.0
-    z_offset : 0.000
+    z_offset : 0.0000
     speed : 4.0
     final_speed : 4.0
     lift_speed : 8.0
@@ -335,7 +334,7 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     
     [system]
     language : 0
-    boot : 0
+    boot :0
     wifi : 1
     area : 1
     run_mode : 1
@@ -347,13 +346,13 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     screen_off_time : 20
     material_breakage_retries : 2
     material_breakage_interval : 3
-    device_model : Anycubic kobra 2 Plus
-    print_size : 320*320*400mm
+    device_model : Anycubic kobra 2 Max
+    print_size : 420*420*500mm
     
     [pid_calibrate]
     test_points : 100,100,5
     extruder_target_temp : 230
-    heater_bed_target_temp : 60
+    heater_bed_target_temp : 60  
     ```
 
 ??? info "Printer.cfg Of The Kobra 2 Pro"  
@@ -656,8 +655,8 @@ I'll leave the settings uncommented as this point, because we can't do anything 
 
     
 
-??? info "Printer.cfg Of The Kobra 2 Max"  
-
+??? info "Printer.cfg Of The Kobra 2 Plus"  
+    
     ```
     []
     [printer]
@@ -676,9 +675,9 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     endstop_pin : !PE8
     microsteps : 16
     full_steps_per_rotation : 200
-    step_distance : 0.0125
+    step_distance : 0.01
     position_endstop : -5.000000
-    position_max : 430.000000
+    position_max : 330.000000
     position_min : -5
     homing_speed : 30.000000
     second_homing_speed : 15.000000
@@ -687,14 +686,14 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     
     [stepper_y]
     step_pin : PG11
-    dir_pin : PE11
+    dir_pin : !PE11
     enable_pin : !PG8
     endstop_pin : !PE13
     microsteps : 16
     full_steps_per_rotation : 200
-    step_distance : 0.0125
-    position_endstop : -8.000000
-    position_max : 430.000000
+    step_distance : 0.01
+    position_endstop : -5.000000
+    position_max : 330.000000
     position_min : -5
     homing_speed : 30.000000
     second_homing_speed : 15.000000
@@ -710,7 +709,7 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     full_steps_per_rotation : 200
     step_distance : 0.0025
     position_endstop : 0.0
-    position_max : 501.000000
+    position_max : 401.000000
     position_min : -5
     homing_speed : 8.000000
     homing_retract_dist : 8
@@ -730,9 +729,9 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     filament_diameter : 1.750000
     sensor_type : EPCOS 100K B57560G104F
     control : pid
-    pid_Kp : 15.551640
-    pid_Ki : 0.682089
-    pid_Kd : 88.644347
+    pid_Kp : 12.723368
+    pid_Ki : 0.489360
+    pid_Kd : 82.701890
     min_temp : -200
     max_temp : 275
     pressure_advance : 0.020000
@@ -760,7 +759,7 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     tx_pin : PE4
     uart_pin : PE5
     interpolate : 1
-    run_current : 1.9
+    run_current : 1.8
     hold_current : 1.0
     uart_address : 3
     sense_resistor : 0.075
@@ -797,9 +796,9 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     sensor_pin : PB14
     sensor_type : ATC Semitec 104GT-2
     control : pid
-    pid_Kp : 68.748474
-    pid_Ki : 0.868036
-    pid_Kd : 1361.219778
+    pid_Kp : 70.769227
+    pid_Ki : 1.134122
+    pid_Kd : 1103.999942
     min_temp : -200
     max_temp : 105
     
@@ -837,14 +836,15 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     
     [mcu]
     mem_interface : mem_interface_DSP
+    
     [input_shaper]
     shaper_type_x : mzv
-    shaper_freq_x : 54.600000
+    shaper_freq_x : 60.200000
     shaper_type_y : 2hump_ei
-    shaper_freq_y : 49.400000
+    shaper_freq_y : 49.200000
     
     [resonance_tester]
-    probe_points : 215,215,50
+    probe_points : 165,165,50
     accel_chip_x : adxl345 X
     accel_chip_y : adxl345 Y
     min_freq : 1.000000
@@ -870,8 +870,8 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     [bed_mesh]
     speed : 60.0
     horizontal_move_z : 5.0
-    mesh_min : 19, 19
-    mesh_max : 405,410
+    mesh_min : 19,19
+    mesh_max : 305,310
     probe_count : 7,7
     mesh_pps : 3,3
     algorithm : lagrange
@@ -879,9 +879,9 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     [auto_leveling]
     bed_mesh_temp : 60.0
     extruder_temp : 210.0
-    extruder_wipe_z : -2.0
+    extruder_wipe_z : -2.3
     move_speed : 30.0
-    extrude_x : 394
+    extrude_x : 66
     extrude_y : 0
     extrude_z : 15
     extrude_length : 80.0
@@ -892,9 +892,9 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     lifting_after_completion : 15.0
     
     [safe_z_home]
-    home_x_position : 371.000000
-    home_y_position : 361.000000
-    speed : 230.0
+    home_x_position : 40.00000
+    home_y_position : 280.00000
+    speed : 150.0
     z_lift : 10
     z_hop : 15.0
     z_hop_speed : 8.0
@@ -904,7 +904,7 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     deactivate_on_each_sample : True
     x_offset : 0.0
     y_offset : 0.0
-    z_offset : 0.0000
+    z_offset : 0.000
     speed : 4.0
     final_speed : 4.0
     lift_speed : 8.0
@@ -932,7 +932,7 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     
     [system]
     language : 0
-    boot :0
+    boot : 0
     wifi : 1
     area : 1
     run_mode : 1
@@ -944,14 +944,17 @@ I'll leave the settings uncommented as this point, because we can't do anything 
     screen_off_time : 20
     material_breakage_retries : 2
     material_breakage_interval : 3
-    device_model : Anycubic kobra 2 Max
-    print_size : 420*420*500mm
+    device_model : Anycubic kobra 2 Plus
+    print_size : 320*320*400mm
     
     [pid_calibrate]
     test_points : 100,100,5
     extruder_target_temp : 230
-    heater_bed_target_temp : 60  
+    heater_bed_target_temp : 60
     ```
+
+
+    
     
 
 ---
